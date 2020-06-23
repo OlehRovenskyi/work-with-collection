@@ -29,7 +29,7 @@ menu.forEach((item, index) => {
     console.log(`Delicious name: ${ item.name }, index: ${ index }`);
 })
 
-// Example 2
+// Example 2. Get product Ids with modifiers
 let productIds = [];
 menu.forEach((item, index) => {
     const id = item.id;
@@ -40,12 +40,12 @@ menu.forEach((item, index) => {
 
 console.log(`product Ids with modifiers: ${ productIds }`);
 
-// Example 3 Compare with for
+// Example 3. Compare with for
 for (let i = 0; i < menu.length; i++) {
     console.log(`Delicious name: ${ menu[i].name }, index: ${ i }`);
 }
 
-// Example 4 break
+// Example 4. break
 for (let i = 0; i < menu.length; i++) {
     if (menu[i].name === 'Salad') {
         console.log('I LOVE Salad');
