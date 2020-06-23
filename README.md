@@ -14,14 +14,14 @@ Examples for working with collections
 
 1. Clone as is
 
-    1. `git clone git@github.com:korniychuk/wallaby-ts-starter.git`
-    2. `cd wallaby-ts-starter`
+    1. `git clone git@github.com:OlegRovenskyi/work-with-collection.git`
+    2. `cd work-with-collection`
     3. `yarn`
 2. Fork
 
     0. Click **Fork** git button
-    1. `git clone git@github.com:YOUR_GIT_NAME/wallaby-ts-starter.git`
-    2. `cd wallaby-ts-starter`
+    1. `git clone ggit@github.com:OlegRovenskyi/work-with-collection.git`
+    2. `cd work-with-collection`
     3. `yarn`
 3. Need to install QUOKKA
 
