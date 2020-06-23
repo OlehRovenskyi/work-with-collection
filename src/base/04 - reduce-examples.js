@@ -13,6 +13,7 @@ const menu = [{
     ingredients: ['potato', 'chicken', 'onion', 'carrot'],
     modifiers: [],
     section: 'soup',
+    changes: [],
 }, {
     name: 'Salad',
     id: 'fjk7frjt',
@@ -27,6 +28,24 @@ const menu = [{
     ingredients: ['tomatoes', 'cucumber', 'pepper', 'oil', 'onion'],
     modifiers: ['olive oil', 'sunflower oil'],
     section: 'starters',
+    changes: [],
+}];
+const prices = [{
+    id: 'efwefwe3',
+    entity_id: 'qewffewfwef',
+    price: 100,
+}, {
+    id: 'efwefwe3',
+    entity_id: 'qdfh4k58',
+    price: 120,
+}, {
+    id: 'efwefwe3',
+    entity_id: 'fjk7frjt',
+    price: 130,
+}, {
+    id: 'efwefwe3',
+    entity_id: 'fjk7fefeft',
+    price: 140,
 }];
 
 /* Syntax:
@@ -48,29 +67,12 @@ menu.forEach((item) => nameLength2 += item.name.length);
 console.log(nameLength2);
 
 // Example 4
-const prices = [{
-    id: 'efwefwe3',
-    entity_id: 'qewffewfwef',
-    price: 100,
-}, {
-    id: 'efwefwe3',
-    entity_id: 'qdfh4k58',
-    price: 120,
-}, {
-    id: 'efwefwe3',
-    entity_id: 'fjk7frjt',
-    price: 130,
-}, {
-    id: 'efwefwe3',
-    entity_id: 'fjk7fefeft',
-    price: 140,
-}];
 const getMaxPrice = (data) => {
-    return data.reduce((price, item) => Math.max(price, item.price), data[0].price);
+    return data.reduce((acc, item) => Math.max(acc, item.price), data[0].price);
 };
 console.log(getMaxPrice(prices));
 
-// Example 5 array get list o properties from changes
+// Example 5 array get list of properties from changes
 const propertiesFromChanges = menu
     .filter((product) => product.changes)
     .map((product) => product.changes)

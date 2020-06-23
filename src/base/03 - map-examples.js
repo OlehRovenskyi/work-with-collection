@@ -24,18 +24,18 @@ const menu = [{
     section: 'starters',
 }];
 
-// Example 1
+// Example 1. We need get array of product names
 const listOfProducts = menu.map((product) => product.name);
 console.log(listOfProducts);
 
-// Example 2 Compare with forEach
+// Example 2. Compare with forEach
 let listOfProducts2 = [];
 menu.forEach((product) => {
     listOfProducts2.push(product.name);
 });
 console.log(listOfProducts2);
 
-// Example 3 filter + map
+// Example 3. Need to add additional property
 const availableProducts = ['qewffewfwef', 'qdfh4k58', 'fjk7fefeft'];
 const updatedMenu = menu.map(product => ({
     ...product,
@@ -45,7 +45,7 @@ console.log(updatedMenu);
 
 /*
 * Like filter, map also returns an array.
-* */
+*/
 
 /*
 * *** Be Careful ***
