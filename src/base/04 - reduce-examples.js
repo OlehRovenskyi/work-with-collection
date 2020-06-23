@@ -72,7 +72,7 @@ const getMaxPrice = (data) => {
 };
 console.log(getMaxPrice(prices));
 
-// Example 5 array get list of properties from changes
+// Example 5. array get list of properties from changes
 const propertiesFromChanges = menu
     .filter((product) => product.changes)
     .map((product) => product.changes)
@@ -85,7 +85,7 @@ const propertiesFromChanges = menu
 
 console.log(propertiesFromChanges);
 
-// Example 6 get object the next structure { [name]: [description] }
+// Example 6. get object structure { [name]: [description] }
 const description = menu.reduce((descriptionsTemplate, product) => {
     descriptionsTemplate[product.name] = product.description || '';
     return descriptionsTemplate;
