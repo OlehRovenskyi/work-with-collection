@@ -26,17 +26,18 @@ values.forEach((item) => {
 console.timeEnd('forEach');
 
 console.time('forEach with Object.assign');
-const obj = {};
+const obj2 = {};
 values.forEach((item) => {
-    Object.assign(obj, {[`item_${item}`]: item});
+    Object.assign(obj2, {[`item_${item}`]: item});
 })
 console.timeEnd('forEach with Object.assign');
 
 console.time('forEach with spread');
-const obj = {};
-values.forEach((item) => ({...obj, [`item_${item}`]: item}))
+const obj3 = {};
+values.forEach((item) => ({...obj3, [`item_${item}`]: item}))
 console.timeEnd('forEach with spread');
 
+// Example 3.
 console.time('reduce');
 values.reduce((acc, number) => {
     acc[`item_${number}`] = number;
