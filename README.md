@@ -1,6 +1,6 @@
 # Examples for presentation JavaScript and real first tasks
 
-[JavaScript and real first tasks]('https://slides.com/olegrovenskyi/javascript-and-real-first-tasks') 
+[JavaScript and real first tasks]('https://slides.com/olegrovenskyi/javascript-and-real-first-tasks') https://slides.com/olegrovenskyi/javascript-and-real-first-tasks
 
 ## Features
 Examples for working with collections
