@@ -93,5 +93,9 @@ const description = menu.reduce((descriptionsTemplate, product) => {
 console.log(description);
 
 /*
+* Summary
+*
 * As you can see, using .reduce() is an easy way to generate a single value or object from an array.
+*
+* Reduce method of the array object is used to reduce the array to one single value.
 * */

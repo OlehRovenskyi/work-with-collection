@@ -67,3 +67,10 @@ const products2 = menu.map((product) => ({ ...product, is_new: true}));
 products2[0].name = 'test name';
 console.log('fixed parent item: ', menu.find(item => item.id === products2[0].id))
 console.log('fixed products[0]: ', products2[0])
+
+/*
+* Summary
+*
+* Map like filter & forEach takes a callback and runs for each value in the array
+* and returns each new value in the resulting array.
+*/

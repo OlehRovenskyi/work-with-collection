@@ -28,6 +28,8 @@ const onlyStarters = menu.filter((item) => item.section === 'starters');
 console.log(onlyStarters);
 
 /*
+* Summary
+*
 * The main difference between 'forEach' and 'filter' is that 'filter' always returns an array,
 * even if there is only one matching element.
 */
