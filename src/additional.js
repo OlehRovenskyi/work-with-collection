@@ -34,7 +34,7 @@ const menu = [{
     changes: [],
 }];
 
-// Example 1.
+// Example 1. Using lodash
 let productIds = [];
 _.each(menu, (item, index) => {
     const id = item.id;
@@ -44,7 +44,7 @@ _.each(menu, (item, index) => {
 })
 console.log(productIds);
 
-// Example
+// Example. Chaining
 const propertiesFromChanges = menu
     .filter((product) => product.changes)
     .map((product) => product.changes)
