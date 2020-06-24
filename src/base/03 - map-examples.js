@@ -36,10 +36,10 @@ menu.forEach((product) => {
 console.log(listOfProducts2);
 
 // Example 3. Need to add additional property
-const availableProducts = ['qewffewfwef', 'qdfh4k58', 'fjk7fefeft'];
+const availableProductIds = ['qewffewfwef', 'qdfh4k58', 'fjk7fefeft'];
 const updatedMenu = menu.map(product => ({
     ...product,
-    is_enabled: availableProducts.includes(product.id),
+    is_enabled: availableProductIds.includes(product.id),
 }));
 console.log(updatedMenu);
 
@@ -65,5 +65,5 @@ console.log('products[0]: ', products[0])
 
 const products2 = menu.map((product) => ({ ...product, is_new: true}));
 products2[0].name = 'test name';
-console.log('parent item: ', menu.find(item => item.id === products2[0].id))
-console.log('products[0]: ', products2[0])
+console.log('fixed parent item: ', menu.find(item => item.id === products2[0].id))
+console.log('fixed products[0]: ', products2[0])
