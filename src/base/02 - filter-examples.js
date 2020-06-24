@@ -25,16 +25,17 @@ const menu = [{
 }];
 
 const onlyStarters = menu.filter((item) => item.section === 'starters');
-console.log(onlyStarters)
+console.log(onlyStarters);
 
 /*
-* The main difference between forEach and filter is that forEach always returns an array, even if there is only one matching element.
+* The main difference between 'forEach' and 'filter' is that 'filter' always returns an array,
+* even if there is only one matching element.
 */
 
 /*
 * *** Be Careful ***
 * copying of objects is carried out by reference
-* */
+*/
 
 onlyStarters[0].name = 'new name for burger'
 console.log(menu[2].name)
