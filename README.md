@@ -1,6 +1,6 @@
 # Examples for presentation JavaScript and real first tasks
 
-[JavaScript and real first tasks]('https://slides.com/olegrovenskyi/javascript-and-real-first-tasks')
+[JavaScript and real first tasks]('https://slides.com/olegrovenskyi/javascript-and-real-first-tasks') 
 
 ## Features
 Examples for working with collections
@@ -25,7 +25,7 @@ Examples for working with collections
     3. `npm i`
 3. Need to install QUOKKA
 
-    1. For running example need to configure [QUOKKA]('https://quokkajs.com/docs/#getting-started')
+    1. For running example need to configure [QUOKKA]('https://quokkajs.com/docs/#getting-started') https://quokkajs.com/docs/#getting-started
 
     
 ## Author
